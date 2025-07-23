@@ -9,7 +9,7 @@
   <div class="container">
     <h1>填完之后下载文件发到客服微信（微信二维码往下拉）</h1>
     <form id="healthForm">
-      <label>体检机构：<input type="text" name="体检机构" required /></label>
+      <label>体检城市：<input type="text" name="体检城市" required /></label>
       <label>姓名：<input type="text" name="姓名" required /></label>
       <label>性别：
         <select name="性别" required>
@@ -93,6 +93,11 @@
 
       <label>左眼（ 近视看右上角图填 不近视就填5.0 ）：<input type="text" name="左眼" required /></label>
       <label>右眼（ 近视看右上角图填 不近视就填5.0）：<input type="text" name="右眼" required /></label>
+
+      <div style="text-align: center; margin-top: 10px;">
+  <img src="vision.png" alt="youce" width="300" />
+</div>
+
       <button type="submit">生成 CSV 文件</button>
 <div style="text-align: center; margin-top: 30px;">
   <p>📱 微信扫码联系我：</p>
@@ -126,13 +131,6 @@
 </div>
 
 <script src="script.js"></script>
-<div style="
-  position: fixed;
-  top: 80px;
-  right: 0px;
-  z-index: 999;
-">
-  <img src="youce.png" alt="视力参考" width="500" />
-</div>
+
 </body>
 </html>
